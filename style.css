@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.background{
+    background-color:darkblue;
+    color:white;
+}
+
+.button{
+    width:80px;
+    height:80px;
+    border-radius: 8px;
+    background-color: yellow;
+    color:blue;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom:80px;
+}
+
+.amount{
+    height:50px;
+    border-radius: 8px;
+}
+
+.fromcurrency{
+    height:40px;
+    width:100px;
+    border-radius: 8px;
+    padding-left:30px;
+}
+
+.text{
+    white-space: nowrap;
+    overflow: hidden;
+    padding-right: 200px;
+}
+
+hr{
+    background-color: white;
+}
+

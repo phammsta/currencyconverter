@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CurrencyExchange</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body class="background">
+
+  <h1>Currency Converter</h1>
+  <hr>
+  </hr>
+  <br></br>
+
+
+  <div class="text-center">
+    <div class="container" style="border:1px solide red">
+    <div class="row">
+      <div class="col-md-3">
+        <div class>
+          <div>amount:</div> <input class="amount" type="number" id="amountInput" />
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="fromcurrency">
+          <div class="text"> from currency:</div>
+          <select class="fromcurrency" id="currencyFROMList">
+            <option value="USD">USD</option>
+            <option value="VND">VND</option>
+            <option value="KRW">KRW</option>
+            <option value="EUR">EUR</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="tocurrency">
+          to currency:
+          <form id="currenyTOList">
+            <input type="radio" name="currency" value="USD"> USD
+            <input type="radio" name="currency" value="VND"> VND
+            <input type="radio" name="currency" value="KRW"> KRW
+            <input type="radio" name="currency" value="EUR"> EUR
+          </form>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <button class="button" onclick="convert()">></button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  <br></br>
+  <h2 id="resultArea">result:</h2>
+
+  <script src="main.js"></script>
+
+  <!-- split -->
